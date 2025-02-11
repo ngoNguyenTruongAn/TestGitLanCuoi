@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    color: #aeaeae;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    line-height: 1.5;
+}
+.clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+.web{
+    margin: 30px auto;
+    width: 682px;
+}
+.web  h1{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 33px;
+}
+.web  p{
+    margin-bottom: 27px;
+}
+.web  ul li{
+    float: left;
+    font-size: 1rem;
+    width: 33%;
+    color: #aeaeae;
+
+}
+.web ul li i{
+    color: rgb(126, 228, 126);
+    margin-right: 10px;
+    
+}
