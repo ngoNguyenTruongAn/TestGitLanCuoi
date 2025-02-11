@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+  }
+html{
+    font-size: 80%;
+}
+  body {
+    color: #333;
+    font-family: Helvetica,sans-serif;
+    font-size: 2rem;
+  }
+  
+  /* Layout */
+  .offer {
+    background: url(https://hocwebchuan.com/exercises/images/html-css/img_exercise_basic02.png) no-repeat center;
+    color: #fff;
+    padding: 80px 0 60px;
+    text-align: center;
+    width: 100%;
+    background-size: 100%;
+  }
+  .offer .Tieu-de {
+    
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+  .offer .text {
+    margin-bottom: 30px;
+  }
+  .offer .btn a {
+    box-shadow: inset 0px 0px 0px 0px #cf866c;
+    background: linear-gradient(to bottom, #e4553f 5%, #d83f2e 100%);
+    border-radius: 4px;
+    border: 1px solid #942911;
+    color: #fff;
+    display: inline-block;
+    font-size: 2rem;
+    opacity: 1;
+    padding: 16px 14px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #854629;
+    transition: 0.3s all;
+  }
+  .offer .btn a:hover {
+    opacity: 0.8;
+  }
